@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lists</string>
+    <string name="simple_list_text">Simple List</string>
 </resources>
