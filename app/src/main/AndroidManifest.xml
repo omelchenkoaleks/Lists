@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._002_layout_inflater.LayoutInflaterActivity"></activity>
+        <activity android:name="._003_custom_item.CustomItemActivity"></activity>
+        <activity android:name="._002_layout_inflater.LayoutInflaterActivity" />
         <activity android:name="._001_simple_list.SimpleListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

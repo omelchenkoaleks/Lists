@@ -6,4 +6,6 @@
     <string name="layout_inflater_text">LayoutInflater</string>
     <string name="relative_layout_text">RelativeLayout:</string>
     <string name="linear_layout_text">LinearLayout:</string>
+    <string name="name_people">Name:</string>
+    <string name="custom_item_text">Custom Item</string>
 </resources>

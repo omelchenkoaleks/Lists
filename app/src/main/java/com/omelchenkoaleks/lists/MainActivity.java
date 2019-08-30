@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.omelchenkoaleks.lists._001_simple_list.SimpleListActivity;
 import com.omelchenkoaleks.lists._002_layout_inflater.LayoutInflaterActivity;
+import com.omelchenkoaleks.lists._003_custom_item.CustomItemActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.layout_inflater_button:
                 Intent layoutInflaterIntent = new Intent(this, LayoutInflaterActivity.class);
                 startActivity(layoutInflaterIntent);
+                break;
+
+            case R.id.custom_item_button:
+                Intent customItemIntent = new Intent(this, CustomItemActivity.class);
+                startActivity(customItemIntent);
                 break;
 
             default:
