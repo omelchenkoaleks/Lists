@@ -10,6 +10,7 @@ import com.omelchenkoaleks.lists._001_simple_list.SimpleListActivity;
 import com.omelchenkoaleks.lists._002_layout_inflater.LayoutInflaterActivity;
 import com.omelchenkoaleks.lists._003_custom_item.CustomItemActivity;
 import com.omelchenkoaleks.lists._004_single_choice.SingleChoiceActivity;
+import com.omelchenkoaleks.lists._005_multiple_choice.MultipleChoiceActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.single_choice_button:
                 Intent singleChoiceIntent = new Intent(this, SingleChoiceActivity.class);
                 startActivity(singleChoiceIntent);
+                break;
+
+            case R.id.multiple_choice_main_button:
+                Intent multipleChoiceIntent = new Intent(this, MultipleChoiceActivity.class);
+                startActivity(multipleChoiceIntent);
                 break;
 
             default:

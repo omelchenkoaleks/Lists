@@ -48,6 +48,13 @@
                 android:onClick="onClick"
                 android:text="@string/single_choice_text_button" />
 
+            <Button
+                android:id="@+id/multiple_choice_main_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/multiple_choice_text" />
+
         </LinearLayout>
 
     </ScrollView>

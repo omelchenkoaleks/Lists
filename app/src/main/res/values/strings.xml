@@ -10,4 +10,5 @@
     <string name="custom_item_text">Custom Item</string>
     <string name="chose_info_text">Chose Info</string>
     <string name="single_choice_text_button">Single Choice</string>
+    <string name="multiple_choice_text">Multiple Choice</string>
 </resources>
