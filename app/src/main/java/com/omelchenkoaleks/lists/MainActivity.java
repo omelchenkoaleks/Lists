@@ -9,6 +9,7 @@ import android.view.View;
 import com.omelchenkoaleks.lists._001_simple_list.SimpleListActivity;
 import com.omelchenkoaleks.lists._002_layout_inflater.LayoutInflaterActivity;
 import com.omelchenkoaleks.lists._003_custom_item.CustomItemActivity;
+import com.omelchenkoaleks.lists._004_single_choice.SingleChoiceActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.custom_item_button:
                 Intent customItemIntent = new Intent(this, CustomItemActivity.class);
                 startActivity(customItemIntent);
+                break;
+
+            case R.id.single_choice_button:
+                Intent singleChoiceIntent = new Intent(this, SingleChoiceActivity.class);
+                startActivity(singleChoiceIntent);
                 break;
 
             default:

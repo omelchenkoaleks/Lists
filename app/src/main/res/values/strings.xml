@@ -8,4 +8,6 @@
     <string name="linear_layout_text">LinearLayout:</string>
     <string name="name_people">Name:</string>
     <string name="custom_item_text">Custom Item</string>
+    <string name="chose_info_text">Chose Info</string>
+    <string name="single_choice_text_button">Single Choice</string>
 </resources>
