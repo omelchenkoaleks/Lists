@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Lists</string>
     <string name="simple_list_text">Simple List</string>
+    <string name="generated_view_text">Generated View</string>
+    <string name="empty_text" />
+    <string name="layout_inflater_text">LayoutInflater</string>
+    <string name="relative_layout_text">RelativeLayout:</string>
+    <string name="linear_layout_text">LinearLayout:</string>
 </resources>
