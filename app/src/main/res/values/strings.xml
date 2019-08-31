@@ -11,4 +11,5 @@
     <string name="chose_info_text">Chose Info</string>
     <string name="single_choice_text_button">Single Choice</string>
     <string name="multiple_choice_text">Multiple Choice</string>
+    <string name="listeners_in_list_text">Listeners in List</string>
 </resources>

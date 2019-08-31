@@ -11,6 +11,7 @@ import com.omelchenkoaleks.lists._002_layout_inflater.LayoutInflaterActivity;
 import com.omelchenkoaleks.lists._003_custom_item.CustomItemActivity;
 import com.omelchenkoaleks.lists._004_single_choice.SingleChoiceActivity;
 import com.omelchenkoaleks.lists._005_multiple_choice.MultipleChoiceActivity;
+import com.omelchenkoaleks.lists._006_listeners_in_list.ListenersInListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.multiple_choice_main_button:
                 Intent multipleChoiceIntent = new Intent(this, MultipleChoiceActivity.class);
                 startActivity(multipleChoiceIntent);
+                break;
+
+            case R.id.listeners_in_list_button:
+                Intent listenersInListIntent = new Intent(this, ListenersInListActivity.class);
+                startActivity(listenersInListIntent);
                 break;
 
             default:

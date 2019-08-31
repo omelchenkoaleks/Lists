@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._005_multiple_choice.MultipleChoiceActivity"></activity>
+        <activity android:name="._006_listeners_in_list.ListenersInListActivity"></activity>
+        <activity android:name="._005_multiple_choice.MultipleChoiceActivity" />
         <activity android:name="._004_single_choice.SingleChoiceActivity" />
         <activity android:name="._003_custom_item.CustomItemActivity" />
         <activity android:name="._002_layout_inflater.LayoutInflaterActivity" />
