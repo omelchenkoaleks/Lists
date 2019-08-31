@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
+    android:background="@android:color/holo_green_light"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -61,6 +62,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/listeners_in_list_text" />
+
+            <Button
+                android:id="@+id/add_data_list_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/add_data_text" />
 
         </LinearLayout>
 

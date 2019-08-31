@@ -12,6 +12,7 @@ import com.omelchenkoaleks.lists._003_custom_item.CustomItemActivity;
 import com.omelchenkoaleks.lists._004_single_choice.SingleChoiceActivity;
 import com.omelchenkoaleks.lists._005_multiple_choice.MultipleChoiceActivity;
 import com.omelchenkoaleks.lists._006_listeners_in_list.ListenersInListActivity;
+import com.omelchenkoaleks.lists._007_add_data.AddDataActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.listeners_in_list_button:
                 Intent listenersInListIntent = new Intent(this, ListenersInListActivity.class);
                 startActivity(listenersInListIntent);
+                break;
+
+            case R.id.add_data_list_button:
+                Intent addDataIntent = new Intent(this, AddDataActivity.class);
+                startActivity(addDataIntent);
                 break;
 
             default:
