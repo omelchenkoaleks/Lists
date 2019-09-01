@@ -6,4 +6,9 @@
 
     <color name="up">#FF1E0F</color>
     <color name="down">#1132D9</color>
+
+    <color name="red_progress">#FF7373</color>
+    <color name="blue_progress">#5CCCCC</color>
+    <color name="green_progress">#C9F76F</color>
+
 </resources>

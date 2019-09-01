@@ -16,4 +16,5 @@
     <string name="remove_data_text">Remove Data</string>
     <string name="simple_list_adapter_text">Simple List Adapter</string>
     <string name="text_image_text">Text Image</string>
+    <string name="view_binder_text">View Binder</string>
 </resources>

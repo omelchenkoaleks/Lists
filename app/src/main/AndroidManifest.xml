@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._009_text_image.TextImageActivity"></activity>
+        <activity android:name="._010_view_binder.ViewBinderActivity"></activity>
+        <activity android:name="._009_text_image.TextImageActivity" />
         <activity android:name="._008_simple_list_adapter.SimpleListAdapterActivity" />
         <activity android:name="._007_add_data.AddDataActivity" />
         <activity android:name="._006_listeners_in_list.ListenersInListActivity" />
