@@ -18,4 +18,6 @@
     <string name="text_image_text">Text Image</string>
     <string name="view_binder_text">View Binder</string>
     <string name="header_and_footer">Header and Footer</string>
+    <string name="header_text">header</string>
+    <string name="footer_text">footer</string>
 </resources>

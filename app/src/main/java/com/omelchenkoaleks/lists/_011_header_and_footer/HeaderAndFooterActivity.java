@@ -42,18 +42,26 @@ public class HeaderAndFooterActivity extends AppCompatActivity {
     private void fillList() {
         mListView.setAdapter(mAdapter);
         mListView.addHeaderView(mHeader_1_View);
+        mListView.addHeaderView(mHeader_2_View, "come text for header 2", false);
         mListView.addFooterView(mFooter_1_View);
+        mListView.addFooterView(mFooter_2_View, "some text for footer 2", false);
     }
 
     private View createHeader(String text) {
         View view = LayoutInflater.from(this).inflate(R.layout.item_011_header, null);
-        ((TextView) view.findViewById(R.id.header_text_view)).setText(text);
+        ((TextView) view.findViewById(R.id.header_text_view_2)).setText(text);
         return view;
     }
 
     private View createFooter(String text) {
         View view = LayoutInflater.from(this).inflate(R.layout.item_011_footer, null);
-        ((TextView) view.findViewById(R.id.footer_text_view)).setText(text);
+        ((TextView) view.findViewById(R.id.footer_text_view_2)).setText(text);
         return view;
+    }
+
+    public void headerAndFooterOnClick(View view) {
+        // удаляем при нажатии кнопки
+        mListView.removeHeaderView(mHeader_2_View);
+        mListView.removeFooterView(mFooter_2_View);
     }
 }
