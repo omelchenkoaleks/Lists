@@ -91,6 +91,13 @@
                 android:onClick="onClick"
                 android:text="@string/view_binder_text" />
 
+            <Button
+                android:id="@+id/header_and_footer_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/header_and_footer" />
+
         </LinearLayout>
 
     </ScrollView>
