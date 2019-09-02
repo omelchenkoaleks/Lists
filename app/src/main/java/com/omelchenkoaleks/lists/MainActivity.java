@@ -18,6 +18,7 @@ import com.omelchenkoaleks.lists._009_text_image.TextImageActivity;
 import com.omelchenkoaleks.lists._010_view_binder.ViewBinderActivity;
 import com.omelchenkoaleks.lists._011_header_and_footer.HeaderAndFooterActivity;
 import com.omelchenkoaleks.lists._012_spinner.SpinnerActivity;
+import com.omelchenkoaleks.lists._013_grid_view.GridViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -88,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.spinner_button:
                 Intent spinnerIntent = new Intent(this, SpinnerActivity.class);
                 startActivity(spinnerIntent);
+                break;
+
+            case R.id.grid_view_button:
+                Intent gridViewIntent = new Intent(this, GridViewActivity.class);
+                startActivity(gridViewIntent);
                 break;
 
             default:
