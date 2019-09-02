@@ -3,9 +3,11 @@ package com.omelchenkoaleks.lists._011_header_and_footer;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.HeaderViewListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -61,7 +63,27 @@ public class HeaderAndFooterActivity extends AppCompatActivity {
 
     public void headerAndFooterOnClick(View view) {
         // удаляем при нажатии кнопки
-        mListView.removeHeaderView(mHeader_2_View);
-        mListView.removeFooterView(mFooter_2_View);
+//        mListView.removeHeaderView(mHeader_2_View);
+//        mListView.removeFooterView(mFooter_2_View);
+
+
+        Object object;
+
+
+        HeaderViewListAdapter adapter = (HeaderViewListAdapter) mListView.getAdapter();
+
+        // здесь мы можем взять данные со всех items списка, включая кастомные вью
+        object = adapter.getItem(1);
+        Log.d(TAG,"adapter.getItem(1): " + object.toString());
+        object = adapter.getItem(4);
+        Log.d(TAG,"adapter.getItem(4): " + object.toString());
+
+        ArrayAdapter<String> arrayAdapter = (ArrayAdapter<String>) adapter.getWrappedAdapter();
+
+        // здесь мы берем только в самом списке данные, без кастомный вложенный вью
+        object = arrayAdapter.getItem(1);
+        Log.d(TAG, "arrayAdapter.getItem(1): " + object.toString());
+        object = arrayAdapter.getItem(4);
+        Log.d(TAG, "arrayAdapter.getItem(4): " + object.toString());
     }
 }
