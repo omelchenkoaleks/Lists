@@ -17,6 +17,7 @@ import com.omelchenkoaleks.lists._008_simple_list_adapter.SimpleListAdapterActiv
 import com.omelchenkoaleks.lists._009_text_image.TextImageActivity;
 import com.omelchenkoaleks.lists._010_view_binder.ViewBinderActivity;
 import com.omelchenkoaleks.lists._011_header_and_footer.HeaderAndFooterActivity;
+import com.omelchenkoaleks.lists._012_spinner.SpinnerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -82,6 +83,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.header_and_footer_button:
                 Intent headerAndFooterIntent = new Intent(this, HeaderAndFooterActivity.class);
                 startActivity(headerAndFooterIntent);
+                break;
+
+            case R.id.spinner_button:
+                Intent spinnerIntent = new Intent(this, SpinnerActivity.class);
+                startActivity(spinnerIntent);
                 break;
 
             default:

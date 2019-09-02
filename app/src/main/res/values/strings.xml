@@ -20,4 +20,5 @@
     <string name="header_and_footer">Header and Footer</string>
     <string name="header_text">header</string>
     <string name="footer_text">footer</string>
+    <string name="spinner">Spinner</string>
 </resources>
