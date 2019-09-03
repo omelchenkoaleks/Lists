@@ -22,4 +22,5 @@
     <string name="footer_text">footer</string>
     <string name="spinner">Spinner</string>
     <string name="grid_view_text">Grid View</string>
+    <string name="expandable_list_view">Expandable ListView</string>
 </resources>

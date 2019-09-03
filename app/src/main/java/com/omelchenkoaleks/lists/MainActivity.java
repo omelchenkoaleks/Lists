@@ -19,6 +19,7 @@ import com.omelchenkoaleks.lists._010_view_binder.ViewBinderActivity;
 import com.omelchenkoaleks.lists._011_header_and_footer.HeaderAndFooterActivity;
 import com.omelchenkoaleks.lists._012_spinner.SpinnerActivity;
 import com.omelchenkoaleks.lists._013_grid_view.GridViewActivity;
+import com.omelchenkoaleks.lists._014_expandable_list_view.ExpandableListViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -94,6 +95,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.grid_view_button:
                 Intent gridViewIntent = new Intent(this, GridViewActivity.class);
                 startActivity(gridViewIntent);
+                break;
+
+            case R.id.expandable_list_view_button:
+                Intent expandableListViewIntent = new Intent(this, ExpandableListViewActivity.class);
+                startActivity(expandableListViewIntent);
                 break;
 
             default:
