@@ -20,6 +20,7 @@ import com.omelchenkoaleks.lists._011_header_and_footer.HeaderAndFooterActivity;
 import com.omelchenkoaleks.lists._012_spinner.SpinnerActivity;
 import com.omelchenkoaleks.lists._013_grid_view.GridViewActivity;
 import com.omelchenkoaleks.lists._014_expandable_list_view.ExpandableListViewActivity;
+import com.omelchenkoaleks.lists._015_list_fragment.ListFragmentActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -100,6 +101,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.expandable_list_view_button:
                 Intent expandableListViewIntent = new Intent(this, ExpandableListViewActivity.class);
                 startActivity(expandableListViewIntent);
+                break;
+
+            case R.id.list_fragment_button:
+                Intent listFragmentIntent = new Intent(this, ListFragmentActivity.class);
+                startActivity(listFragmentIntent);
                 break;
 
             default:

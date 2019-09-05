@@ -23,4 +23,5 @@
     <string name="spinner">Spinner</string>
     <string name="grid_view_text">Grid View</string>
     <string name="expandable_list_view">Expandable ListView</string>
+    <string name="list_fragment">List Fragment</string>
 </resources>
