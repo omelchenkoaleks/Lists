@@ -24,4 +24,6 @@
     <string name="grid_view_text">Grid View</string>
     <string name="expandable_list_view">Expandable ListView</string>
     <string name="list_fragment">List Fragment</string>
+    <string name="no_data_text">No Data</string>
+    <string name="number_list">Number list</string>
 </resources>
