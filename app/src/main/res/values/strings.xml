@@ -26,4 +26,7 @@
     <string name="list_fragment">List Fragment</string>
     <string name="no_data_text">No Data</string>
     <string name="number_list">Number list</string>
+    <string name="list_dialog_text">List Dialog</string>
+    <string name="items">Items</string>
+    <string name="adapter">Adapter</string>
 </resources>

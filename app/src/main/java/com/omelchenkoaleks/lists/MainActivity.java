@@ -21,6 +21,7 @@ import com.omelchenkoaleks.lists._012_spinner.SpinnerActivity;
 import com.omelchenkoaleks.lists._013_grid_view.GridViewActivity;
 import com.omelchenkoaleks.lists._014_expandable_list_view.ExpandableListViewActivity;
 import com.omelchenkoaleks.lists._015_list_fragment.ListFragmentActivity;
+import com.omelchenkoaleks.lists._016_list_dialog.ListDialogActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -106,6 +107,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.list_fragment_button:
                 Intent listFragmentIntent = new Intent(this, ListFragmentActivity.class);
                 startActivity(listFragmentIntent);
+                break;
+
+            case R.id.list_dialog_button:
+                Intent listDialogIntent = new Intent(this, ListDialogActivity.class);
+                startActivity(listDialogIntent);
                 break;
 
             default:
